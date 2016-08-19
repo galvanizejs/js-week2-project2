@@ -1,4 +1,4 @@
-# js-week2-project2
+# Week 2 Project 2
 
 Use the Week 2 - Lecture #2 material to assist you in completing this assignment.
 

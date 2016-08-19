@@ -1,55 +1,75 @@
 /*
 =======================================================
-
-** Week 2 - Project 2 **
-*** Looping & Conditionals ***
+** Week 2 - Project 1 **
 
 Below are a number of problems for you to solve
 using JS. The JS code can be written below each
-problem and the result can be logged to the console.
+problem.
 
-In order to make the results easy to read,
-please use console.log("Question #") to declare the
-problem number being solved followed by console.log(yourAnswer) after each question.
-
-For any methods that we didn't cover, please refer to the Loops and Iteration Documentation.
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration
-
-or If...Else Documentation
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else
-
-or While Loop Documentation
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while
-
-
-BASIC TRACK: 1-15
-ADVANCED TRACK: 16-20
 =======================================================
 */
 
 
-// 1. Output each item in the following Array to your console:
+// 0. Connect the main.js document to the HTML page.
+/*    Add to the bottom of the HTML page: <script src="main.js"></script>*/
+document.getElementById("q0").innerHTML = "JS Page Connected Properly!";
+document.getElementById("q0").classList.add("status-good");
+
+
+
+
+// 1. Output each item in the following Array to your console within their own paragraphs:
 var livingRoom = ['couch', 'lamp', 'rug', 'shelf'];
 
-// 2. Using a loop, log numbers 22-33 in the console.
+
+
+
+// 2. Using a loop, log numbers 22-33 within their own paragraphs.
+
+
+
+
 
 // 3. Using a similar loop, log numbers 75 to 100, only in increments of five.
 
-// 4. Write a while loop that logs "This is how a professional loops." to the console 5 times.
+
+
+
+
+// 4. Write a while loop that displays paragraphs of "This is how a professional loops." to the HTML page 5 times.
+
+
+
+
+
 
 // 5. Separately, use both a for loop and while loop to do the same thing.
-//     Print out the sentence "At home, I have _____ cats."
+//     Display in unique paragraphs the sentence "At home, I have _____ cats."
 //     The numbers should range from 10 to 110, in increments of 25.
 
-// 6. Given the following Array, console log 'Even' if the number is even, 'Even and greater than 10' if the
+
+
+
+
+// 6. Given the following Array, display in unique paragraphs'Even' if the number is even, 'Even and greater than 10' if the
 //    number is even and greater than 10, and 'Odd' if the number is odd.
 //    HINT: Google 'remainder operator'
 var numArray = [2, 17, 9, 24, 8];
 
-// 7. Using the following Array, create variable called numThrees with the value [13, 23, 33, 43, 53, 63, 73]
-var numArray = [13, 15, 17, 23, 25, 27, 33, 35, 37, 43, 45, 47, 53, 55, 57, 63, 65, 67, 73, 75, 77]
 
-// 8. Write a loop that outputs the following to the console:
+
+
+
+// 7. Using the following Array, create variable called numThrees with the value [13, 23, 33, 43, 53, 63, 73]
+var numArray = [13, 15, 17, 23, 25, 27, 33, 35, 37, 43, 45, 47, 53, 55, 57, 63, 65, 67, 73, 75, 77];
+
+
+
+
+
+
+
+// 8. Write a loop that outputs the following to unique paragraphs:
 // #
 // ##
 // ###
@@ -58,11 +78,21 @@ var numArray = [13, 15, 17, 23, 25, 27, 33, 35, 37, 43, 45, 47, 53, 55, 57, 63, 
 // ######
 // #######
 
+
+
+
+
+
+
 // 9. FIZZ BUZZ
 // Write a program that uses console.log to print each number up to 100, with a couple exceptions...
 // If the number is divisible by 3, print "Fizz" instead of the number.
 // If the number is divisible by 5, print "Buzz" instead of the number.
 // If the number is divisible by both 3 and 5, print "FizzBuzz" instead of the number.
+
+
+
+
 
 // RO SHAM BO!
 // We're going to create a paper, rock, scissors game that prompts you for your choice and allows the computer to
@@ -83,9 +113,17 @@ var numArray = [13, 15, 17, 23, 25, 27, 33, 35, 37, 43, 45, 47, 53, 55, 57, 63, 
 //     to print a snarky message to the console if the input doesn't match any of the options.
 
 
+
+
+
+
+
 // ADVANCED TRACK
 // 16. Write a conditional statement to find the largest of the numbers in the array provided.
 var largestNum = [-5, -2, -6, 0, -1]
+
+
+
 
 // HEADS OR TAILS?
 // 17. Use the following variable for your coin flip action:
@@ -94,7 +132,18 @@ var largestNum = [-5, -2, -6, 0, -1]
 //     Remember, Math.random gives you a random number between 0 and 1.
 //     Calling Math.floor on that number will truncate the decimal, and give you a
 //     random number within the bounds of your array. (In this case, our array will only contain two items.)
+
+
+
+
+
+
 // 18. Use a do/while loop to keep flipping the coin until you get tails.
+
+
+
+
+
 
 // CHESS BOARD
 // 19. Write a program that creates a string that represents an 8×8 grid, using newline characters to separate lines.
@@ -111,5 +160,29 @@ var largestNum = [-5, -2, -6, 0, -1]
 //  # # # #
 // # # # #
 
+
+
+
+
+
 // 20. When you have a program that generates this pattern, define a variable size = 8 and change the program
 // sso that it works for any size, outputting a grid of the given width and height.
+
+
+
+
+
+
+
+
+
+/* SANDBOX TRACK
+
+Solving all of these problems is a great step in the right direction, 
+but the next step is coming up with your own arrangements to solve 
+new problems. Practice creating your own problems to solve and their solutions -
+you can even challenge your classmates! 
+ 
+Also, consider how you can add/remove CSS styles to create added presentation with the results. 
+
+*/
